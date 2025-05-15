@@ -51,7 +51,6 @@ body {
 
 /* Header Styles */
 .header {
-
   text-align: center;
   padding: 4rem 0 2rem;
   color: #FFE1E0;
@@ -78,7 +77,6 @@ body {
   position: sticky;
   top: 0;
   z-index: 100;
-
 }
 
 .nav-links {
@@ -123,7 +121,6 @@ body {
 /* Section Styles */
 .section {
   padding: min(4rem, 5vw) 0;
-  margin: 2rem 0;
   border-radius: 15px;
 
 }
@@ -303,6 +300,4 @@ body {
   margin-top: auto;
   border-radius: 0 0 15px 15px;
 }
-.nav-links i {
-  margin-right: 6px;
-}
+
