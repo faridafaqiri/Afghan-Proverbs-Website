@@ -1,6 +1,5 @@
 html , body {
   width: 100%;
-  overflow-x: hidden;
 }
 body {
   max-width: 100vw !important;
@@ -18,10 +17,11 @@ body {
 .container {
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: auto;
   padding: 2rem;
-  padding-left: max(1rem, env(safe-area-inset-left));
-  padding-right: max(1rem, env(safe-area-inset-right));
+  text-align: center;
+  padding-left: max(-10px, env(safe-area-inset-left));
+  padding-right: max(-10px, env(safe-area-inset-right));
 }
 
 /* Video Background */
@@ -84,7 +84,7 @@ body {
   width: 100vw;
   padding-left: 0;
   padding-right: 0;
-  
+  left: 0;
   right: 0;
 }
 
